@@ -1,0 +1,36 @@
+{
+  "name": "@kuro/util",
+  "version": "1.0.0",
+  "description": "Some base methods for javascript without any dependency",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLittlePrince/kuro-util.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "CodeLittlePrince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeLittlePrince/kuro-util/issues"
+  },
+  "homepage": "https://github.com/CodeLittlePrince/kuro-util#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {}
+}
