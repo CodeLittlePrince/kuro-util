@@ -5,5 +5,6 @@ Some base methods for javascript without any dependency
 
 运行
 ---
-`npm i`
-`npm run dev`
+安装：`npm i`
+
+运行：`npm run dev`
