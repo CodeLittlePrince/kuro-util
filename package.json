@@ -1,11 +1,8 @@
 {
   "name": "kuro-util",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Some base methods for javascript without any dependency",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack"
