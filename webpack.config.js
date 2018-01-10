@@ -1,14 +1,15 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 const config = {
   entry: {
-    math: path.join(__dirname, './examples/mathematic/index.js'),
-    regex: path.join(__dirname, './examples/regex/index.js')
+    math: path.join(__dirname, 'examples/mathematic/index.js'),
+    regex: path.join(__dirname, 'examples/regex/index.js')
   },
   output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'js/[name].js'
+		filename: 'js/[name].[chunkhash:8].js'
   },
   module: {
     rules: [
@@ -22,6 +23,7 @@ const config = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin('dist'),
     // 主页
     new HtmlWebpackPlugin({
       filename: './index.html',

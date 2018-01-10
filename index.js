@@ -1,7 +1,11 @@
-import Mathematic from ".lib/math"
-import Regex from './lib/regex'
+import Mathematic from "./src/mathematic"
+import Regex from './src/regex'
 
-export default {
+export { Mathematic }
+export { Regex }
+
+const util = {
   Mathematic,
   Regex
 }
+export default util

@@ -1,11 +1,11 @@
-import mathematic from '../../src/mathematic/index.js'
+import { Mathematic } from '../../index.js'
 
 const dom = document.getElementById('shuffle')
 const shuffleBtn = document.getElementById('shuffleBtn')
 let rst = []
 
 shuffleBtn.addEventListener('click', () => {
-  rst = mathematic.shuffle([1, 3, 4, 5, 6])
+  rst = Mathematic.shuffle([1, 3, 4, 5, 6])
   dom.textContent = rst.toString().replace(/,/g, ' ')
 })
 
@@ -20,4 +20,4 @@ function speak() {
   const d = { ...c, gendar: 'female' }
   console.log(b, d)
 }
-console.log(mathematic.speak())
+console.log(speak())
