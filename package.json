@@ -1,5 +1,5 @@
 {
-  "name": "@kuro/util",
+  "name": "kuro-util",
   "version": "1.0.0",
   "description": "Some base methods for javascript without any dependency",
   "main": "index.js",
